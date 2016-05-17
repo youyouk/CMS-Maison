@@ -1,0 +1,298 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+.btn {
+  text-decoration: none !important;
+}
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Sidebar
+ */
+
+/* Hide for mobile, show later */
+.sidebar {
+  display: none;
+}
+
+@media (min-width: 801px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+ /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px;
+ /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav-sidebar > li > a:hover {
+  color: #fff!important;
+  background-color: #b22300;
+}
+
+.nav-sidebar > .active > a {
+  color: #fff;
+  background-color: #b22300;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+}
+
+@media (min-width: 801px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.main .page-header {
+  margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.placeholders h4 {
+  margin-bottom: 0;
+}
+
+.placeholder {
+  margin-bottom: 20px;
+}
+
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.breadcrumb {
+  border-left-color: #d84437;
+}
+
+.btn-link {
+  color: #d84437;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  color: #a32a20;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:focus {
+  border-bottom-color: #d84437;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  border-bottom-color: #d84437;
+}
+
+.navbar-inverse .dropdown-menu > li > a:hover,
+.navbar-inverse .dropdown-menu > li > a:focus {
+  color: #d84437;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  color: #d84437;
+}
+
+.nav.open > a,
+.nav.open > a:hover,
+.nav.open > a:focus {
+  background-color: #d84437;
+  border-color: #d84437;
+}
+
+.nav-tabs.nav-stacked > li > a:hover,
+.nav-tabs.nav-stacked > li > a:focus,
+.nav-tabs.nav-stacked > .active > a,
+.nav-tabs.nav-stacked > .active > a:hover,
+.nav-tabs.nav-stacked > .active > a:focus {
+  border-left-color: #a32a20;
+  background-color: #d84437;
+}
+
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.nav-list > .active > a:focus {
+  background-color: #d84437;
+}
+
+a {
+  color: #d84437;
+}
+
+a:hover,
+a:focus {
+  color: #a32a20;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus {
+  border-color: #d84437;
+}
+
+.tt-suggestion.tt-is-under-cursor {
+  color: #d84437;
+}
+
+.typeahead:focus {
+  border-color: #d84437;
+}
+
+.form-control:focus {
+  border-color: #d84437;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #d84437;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #d84437;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+  background-color: #d84437;
+}
+
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.pagination > .active > a,
+.pagination > .active > span {
+  background-color: #d84437;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #d84437;
+}
+
+a.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+  color: #d84437;
+}
+
+blockquote {
+  border-left-color: #d84437;
+}
+
+blockquote.pull-right {
+  border-right-color: #d84437;
+}
+
+.text-primary {
+  color: #d84437;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #d84437;
+}
+
+a.list-group-item.active {
+  background-color: #d84437;
+  border-color: #d84437;
+}
+
+a.list-group-item.active .list-group-item-text {
+  color: #f9e4e2;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #d84437;
+  border-color: transparent;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  color: #fff;
+  background-color: #555555;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #d84437;
+}
+
+.panel-primary .panel-heading {
+  background-color: #d84437;
+  border-color: #d84437;
+}

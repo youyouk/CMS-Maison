@@ -1,0 +1,57 @@
+@import "libs/bootstrap/less/bootstrap.less";
+@baseFontFamily: "Segoe UI", sans-serif;
+ 
+.clear
+{
+	clear: both;
+}
+
+.nomargin
+{
+	margin: 0;
+}
+
+.TreeView
+{
+	height: 300px;
+	width: 82%;
+	
+	border: 1px solid #CCC;
+	
+	overflow: auto;
+	margin: 0;
+	
+	@transition: border linear .2s;
+	.transition(@transition);
+	
+	.toggleCheck
+	{
+		cursor: pointer;
+	}
+	
+	&:hover
+	{
+		border: 1px solid @blue;
+	}
+	
+	li:hover > span
+	{
+		color: @blue;
+	}
+	
+	li.disabled > span
+	{
+		color: @red;
+		
+		&.toggleCheck > .disabled
+		{
+			cursor: default;
+		}
+	}
+}
+
+
+label > input[type="checkbox"]
+{
+	vertical-align: baseline;
+}

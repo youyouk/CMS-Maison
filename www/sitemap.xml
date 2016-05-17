@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated-on="2016-04-28T11:45:54+02:00" -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9                                 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>http://www.URL-DU-SITE.fr/actualites.php</loc>
+        <lastmod>2016-04-28T11:45:54+02:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url> 
+    <url>
+        <loc>http://www.URL-DU-SITE.fr/contact.php</loc>
+        <lastmod>2016-04-28T11:45:54+02:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url>
+    <url>
+        <loc>http://www.URL-DU-SITE.fr/erreur-404.php</loc>
+        <lastmod>2016-04-28T11:45:54+02:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url> 
+    <url>
+        <loc>http://www.URL-DU-SITE.fr/index.php</loc>
+        <lastmod>2016-04-28T11:45:54+02:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url> 
+    <url>
+        <loc>http://www.URL-DU-SITE.fr/mentions-legales.php</loc>
+        <lastmod>2016-04-28T11:45:54+02:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url> 
+    <url>
+        <loc>http://www.URL-DU-SITE.fr/qui-sommes-nous.php</loc>
+        <lastmod>2016-04-28T11:45:54+02:00</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1</priority>
+    </url> 
+</urlset>
