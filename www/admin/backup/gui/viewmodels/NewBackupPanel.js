@@ -33,7 +33,7 @@ function NewBackupPanel(data) {
 			hasDatabase: false,
 			databases: null,
 			emailMe: true,
-			email: 'h.jousseaume@cavac.fr',
+			email: '',
 			dropboxAccount: ''
 		};
 	}
