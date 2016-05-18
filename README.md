@@ -1,7 +1,8 @@
 # CMS-Maison
 Un CMS simple pour mettre rapidement en ligne un site responsive, avec une interface permettant de mettre à jour les contenus sans toucher au code.
 
-Inclus une Admin avec de nombreux paramétrages : 
+Inclus une Admin avec de nombreux paramétrages :
+
 	• Gestion des contenus, fichiers, messages du formulaire de contact, Actualités etc
 	• Nombreux paramètres de forme, Facebook, Google Analytics, Vidéo YouTube etc
 	• Gestion du Menu
