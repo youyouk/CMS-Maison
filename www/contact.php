@@ -85,17 +85,17 @@ $i = 0;
 		
 		/* DESTINATAIRE */ 
 		if($DESTINATAIRE == "1") {
-			$dest_email = "p.satge@cavac.fr";
-			$dest_nom = "Perrine SATGE";
+			$dest_email = "xxxx@xxxx.xxxx";
+			$dest_nom = "Contact 1";
 		}  else if($DESTINATAIRE == "2") { 
-			$dest_email = "c.marsat@cavac.fr";
-			$dest_nom = "Christian MARSAT";
+			$dest_email = "xxxx@xxxx.xxxx";
+			$dest_nom = "Contact 1";
 		}  else if($DESTINATAIRE == "3") { 
-			$dest_email = "f.barboteau@cavac.fr";
-			$dest_nom = "Florent BARBOTEAU";
+			$dest_email = "xxxx@xxxx.xxxx";
+			$dest_nom = "Contact 1";
 		}  else {
 			//$dest_email = parametre(1, $bdd);
-			$dest_email = "h.jousseaume@cavac.fr";
+			$dest_email = xxxx@xxxx.xxxx";
 			$dest_nom = "Webmaster";
 		}
 		/* VOUS ETES */
@@ -211,10 +211,10 @@ $i = 0;
 				
 				<p><label>Destinataire du message</label>
 					<select name="DESTINATAIRE" required>
-						<option value="2">Christian MARSAT</option>
-						<option value="1">Perrine SATGE (secteur Nord)</option>
-						<option value="3">Florent BARBOTEAU (secteur Sud)</option>
-						<!--<option value="5">Webmaster</option>-->
+						<option value="2">Contact 1</option>
+						<option value="1">Contact 2</option>
+						<option value="3">Contact 3</option>
+						<option value="5">Webmaster</option><!---->
 					</select> 
 				</p>
 			</div>
